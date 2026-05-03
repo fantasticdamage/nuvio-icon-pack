@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "name": "Nuvio GitHub Icon Pack",
+  "description": "Repo-ready icon and provider GIF manifest for Nuvio Netflix-style layouts.",
+  "license": "MIT for config files. Brand assets/GIFs must follow each service's brand guidelines.",
+  "icons": {
+    "categories": {
+      "home": {
+        "icon": "icons/categories/home.svg",
+        "fallback": "home"
+      },
+      "movies": {
+        "icon": "icons/categories/movies.svg",
+        "fallback": "film"
+      },
+      "series": {
+        "icon": "icons/categories/series.svg",
+        "fallback": "tv"
+      },
+      "streaming": {
+        "icon": "icons/categories/streaming.svg",
+        "fallback": "play-square"
+      },
+      "genres": {
+        "icon": "icons/categories/genres.svg",
+        "fallback": "grid"
+      },
+      "collections": {
+        "icon": "icons/categories/collections.svg",
+        "fallback": "layers"
+      },
+      "decades": {
+        "icon": "icons/categories/decades.svg",
+        "fallback": "clock"
+      },
+      "directors": {
+        "icon": "icons/categories/directors.svg",
+        "fallback": "clapperboard"
+      },
+      "anime": {
+        "icon": "icons/categories/anime.svg",
+        "fallback": "sparkles"
+      },
+      "horror": {
+        "icon": "icons/categories/horror.svg",
+        "fallback": "ghost"
+      }
+    },
+    "providers": {
+      "netflix": {
+        "icon": "icons/providers/netflix.svg",
+        "gif": "gifs/providers/netflix.gif",
+        "fallback": "play",
+        "accent": "#E50914"
+      },
+      "prime-video": {
+        "icon": "icons/providers/prime-video.svg",
+        "gif": "gifs/providers/prime-video.gif",
+        "fallback": "shopping-bag",
+        "accent": "#00A8E1"
+      },
+      "max": {
+        "icon": "icons/providers/max.svg",
+        "gif": "gifs/providers/max.gif",
+        "fallback": "flame",
+        "accent": "#8A2BE2"
+      },
+      "disney-plus": {
+        "icon": "icons/providers/disney-plus.svg",
+        "gif": "gifs/providers/disney-plus.gif",
+        "fallback": "star",
+        "accent": "#113CCF"
+      },
+      "hulu": {
+        "icon": "icons/providers/hulu.svg",
+        "gif": "gifs/providers/hulu.gif",
+        "fallback": "circle",
+        "accent": "#1CE783"
+      },
+      "apple-tv-plus": {
+        "icon": "icons/providers/apple-tv-plus.svg",
+        "gif": "gifs/providers/apple-tv-plus.gif",
+        "fallback": "monitor-play",
+        "accent": "#A3AAAE"
+      },
+      "paramount-plus": {
+        "icon": "icons/providers/paramount-plus.svg",
+        "gif": "gifs/providers/paramount-plus.gif",
+        "fallback": "mountain",
+        "accent": "#0064FF"
+      },
+      "peacock": {
+        "icon": "icons/providers/peacock.svg",
+        "gif": "gifs/providers/peacock.gif",
+        "fallback": "feather",
+        "accent": "#000000"
+      },
+      "shudder": {
+        "icon": "icons/providers/shudder.svg",
+        "gif": "gifs/providers/shudder.gif",
+        "fallback": "skull",
+        "accent": "#B00020"
+      },
+      "crunchyroll": {
+        "icon": "icons/providers/crunchyroll.svg",
+        "gif": "gifs/providers/crunchyroll.gif",
+        "fallback": "sparkles",
+        "accent": "#F47521"
+      },
+      "mgm-plus": {
+        "icon": "icons/providers/mgm-plus.svg",
+        "gif": "gifs/providers/mgm-plus.gif",
+        "fallback": "gem",
+        "accent": "#D6B56D"
+      }
+    }
+  },
+  "github": {
+    "recommendedRepoName": "nuvio-icon-pack",
+    "defaultBranch": "main",
+    "rawBaseUrlTemplate": "https://raw.githubusercontent.com/<owner>/nuvio-icon-pack/main/",
+    "usage": {
+      "iconUrl": "https://raw.githubusercontent.com/<owner>/nuvio-icon-pack/main/icons/providers/netflix.svg",
+      "gifUrl": "https://raw.githubusercontent.com/<owner>/nuvio-icon-pack/main/gifs/providers/netflix.gif"
+    }
+  }
+}

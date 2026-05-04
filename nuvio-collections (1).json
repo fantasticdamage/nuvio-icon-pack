@@ -1,0 +1,50 @@
+[
+  {
+    "id": "collection-trending-popular",
+    "title": "Trending & Popular",
+    "folders": [
+      {
+        "id": "folder-trending",
+        "title": "Trending",
+        "sources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.87667"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.88434"
+          }
+        ],
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true
+      },
+      {
+        "id": "folder-popular",
+        "title": "Popular",
+        "sources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.161766"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.161767"
+          }
+        ],
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true
+      }
+    ],
+    "viewMode": "TABBED_GRID",
+    "focusGlowEnabled": true
+  }
+]
